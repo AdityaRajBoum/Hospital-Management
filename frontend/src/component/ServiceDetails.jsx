@@ -16,8 +16,9 @@ import { useEffect, useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { useParams } from "react-router-dom";
 
-import HomeIcon from "@mui/icons-material/Home";
-import AddCircleIcon from "@mui/icons-material/AddCircle";
+import HomeIcon from '@mui/icons-material/Home';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+
 import ReadMoreLess from "./ReadMore";
 //import "../Css.css"
 const ServiceDetails = () => {

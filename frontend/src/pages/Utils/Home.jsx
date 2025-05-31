@@ -17,7 +17,7 @@ const Home = () => {
         <CrousalCom />
         <Hero
           title={
-            "Welcome to ZeeCare Medical Institute | Your Trusted Health Partner"
+            "Welcome to ZEE HealthCare Medical Institute | Your Trusted Health Partner"
           }
           imageUrl={"/hero.png"}
         />

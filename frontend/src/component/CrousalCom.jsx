@@ -34,22 +34,22 @@ export default function CrousalCom() {
 
   const cards = [
     {
-      title: "ZEE CARE MEDICOS",
-      text: "Striving today for better tomarrow",
+      title: "ZEE HEALTHCARE",
+      text: "Striving today for better tomorrow",
       image:
-        "https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+      "/docimg.png",  
+      },
+    {
+      title: "ZEE HEALTHCARE",
+      text: "Striving today for better tomorrow",
+      image:
+        "/docban.webp",
     },
     {
-      title: "ZEE CARE MEDICOS",
-      text: "Striving today for better tomarrow",
+      title: "ZEE HEALTHCARE",
+      text: "Striving today for better tomorrow",
       image:
-        "https://media.istockphoto.com/id/1586911323/photo/close-up-of-african-woman-hands-holding-red-heart-in-solidarity.jpg?s=1024x1024&w=is&k=20&c=vthycvExCK9VaXehd8avKnU6H01iXh5algrEXyIeAhM=",
-    },
-    {
-      title: "ZEE CARE MEDICOS",
-      text: "Striving today for better tomarrow",
-      image:
-        "https://media.istockphoto.com/id/1178807250/photo/doctor-shows-a-sign-of-protection-of-health.jpg?s=1024x1024&w=is&k=20&c=mOY9Vof6VskbxMKBrLo5lXhRFe8u5-ysvRXmdyRh74Q=&auto=format&fit=crop&w=2274&q=80",
+        "/docnew2.jpg",
     },
   ];
 
@@ -57,7 +57,6 @@ export default function CrousalCom() {
     <Box
       position={"relative"}
       height={"350px"}
-      width={"full"}
       overflow={"hidden"}
     >
       <link
@@ -101,9 +100,10 @@ export default function CrousalCom() {
         {cards.map((card, index) => (
           <Box
             key={index}
-            height={"6xl"}
+            height={"100%"}
+            width={"100%"}
             position="relative"
-            backgroundPosition="center"
+            backgroundPosition="top center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
             backgroundImage={`url(${card.image})`}
@@ -118,10 +118,10 @@ export default function CrousalCom() {
                 top="50%"
                 transform="translate(0, -50%)"
               >
-                <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
+                <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }} textAlign="center">
                   {card.title}
                 </Heading>
-                <Text fontSize={{ base: "md", lg: "lg" }} color="GrayText">
+                <Text fontSize={{ base: "md", lg: "lg" }} color="Black" textAlign="center">
                   {card.text}
                 </Text>
               </Stack>

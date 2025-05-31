@@ -7,7 +7,7 @@ const DepartmentMain = () => {
   return (
     <>
       <Navbar />
-      <div style={{ overflowX: "hidden" }} className="content">
+      <div style={{ overflowX: "hidden", backgroundColor: "#f2ffff" }} className="content">
         <DepartmentPage />
 
         <Footer />

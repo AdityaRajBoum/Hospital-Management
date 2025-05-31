@@ -1,18 +1,15 @@
-import { Container } from "@chakra-ui/layout";
-import Cover from "./Cover";
+
 import {
   Box,
   Flex,
-  Heading,
+
   Text,
   Avatar,
   Button,
   Grid,
   VStack,
   Input,
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
+ 
 } from "@chakra-ui/react";
 import Navbar from "../../../component/Navbar";
 import Footer from "../../../component/Footer";
@@ -152,9 +149,8 @@ export default function DoctorViewProfile() {
                     cursor: "pointer",
                     color: "white",
                     transition: "transform 0.1s ease-in-out",
-                    background: " #833ab4",
-                    background:
-                      " linear-gradient(to right,#833ab4,#fd1d1d,#fcb045)",
+                    background: "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)",
+
                     boxShadow: "0px 3px 10px rgba(0,0,0,.25)",
                   }}
                   mx="30px"

@@ -44,14 +44,14 @@ const Navbar = () => {
       <nav
         style={{
           position: "fixed",
-
+          overflow: "hidden",
           zIndex: "1220",
         }}
         className="container header"
       >
-        <div className="nav-col logo">
+        <div className="nav-col logo " style={{ display: "flex", width: "25px" }}>
           {" "}
-          <img src="/logo1.png" alt="logo" className="logo-img" />
+          <img src="/logo1.png" alt="logo" className="logo-img" width={50} />
         </div>
         <div className={show ? "navLinkss showmenu" : "navLinkss"}>
           <div className="links">

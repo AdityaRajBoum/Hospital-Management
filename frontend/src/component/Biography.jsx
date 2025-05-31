@@ -1,15 +1,15 @@
 import React from "react";
-// import "../Css.css";
+
 const Biography = ({ imageUrl }) => {
   return (
     <>
-      <div className="container biography">
+      <div className="container biography" style={{ backgroundColor: "#f2ffff" }}>
         <div className="banner">
           <img src={imageUrl} alt="about image" />
         </div>
         <div className="banner">
-          <p>Biography</p>
-          <h3>Who We Are</h3>
+          <h2>Biography</h2>
+          <h3>Who Are We</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
             facere aliquam perferendis, repellat saepe recusandae ipsam sapiente
@@ -18,8 +18,6 @@ const Biography = ({ imageUrl }) => {
             voluptates quia tempore quod ipsa, obcaecati rem explicabo
             asperiores quae natus ut, maiores iusto aliquam?
           </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet.</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit
             perspiciatis dolorem aperiam labore eius doloremque magnam fugit hic
@@ -30,7 +28,7 @@ const Biography = ({ imageUrl }) => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
             dolores!
           </p>
-          <p>Lorem, ipsum dolor.</p>
+        
         </div>
       </div>
     </>
